@@ -11,6 +11,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
+    """Render basic html
+
+    Returns:
+        _type_: Rendered file
+    """
     return render_template('0-index.html')
 
 
